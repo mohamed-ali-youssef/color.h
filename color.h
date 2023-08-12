@@ -10,7 +10,7 @@ using namespace std;
 class FrontColor
 {
     public:
-    string Null() { return ""; }
+    string Null() { return "0m"; }
     string Black() { return "30m"; }
     string Red() { return "31m"; }
     string Green() { return "32m"; }
