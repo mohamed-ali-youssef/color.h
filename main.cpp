@@ -11,7 +11,7 @@ int main()
     cout << cr.TextColor("Change the background color to red using [cr.BG.Red()]",
     cr.FG.White(),cr.BG.Red(),cr.B.False()) << "\n";
 
-    cout << cr.TextColor("Change the background color to red using [cr.B.True()]",
+    cout << cr.TextColor("Use bold and print using [cr.B.True()]",
     cr.FG.White(),cr.BG.Null(),cr.B.True()) << "\n";
 
     return 0;
